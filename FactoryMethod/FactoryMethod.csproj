@@ -44,6 +44,7 @@
     <Compile Include="Application.cs" />
     <Compile Include="CinemaCottadge.cs" />
     <Compile Include="CinemaFlat.cs" />
+    <Compile Include="FlatWithNoolite.cs" />
     <Compile Include="ICinema.cs" />
     <Compile Include="IEngine.cs" />
     <Compile Include="IRelay.cs" />
