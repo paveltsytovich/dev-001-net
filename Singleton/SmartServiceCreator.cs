@@ -9,6 +9,7 @@ namespace Singleton
     class SmartServiceCreator
     {
         private static ISmartServiceFactory instance;
+        private static Object dimmy = new object();
 
         public static ISmartServiceFactory Instance
         {
@@ -17,7 +18,13 @@ namespace Singleton
 
         static SmartServiceCreator()
         {
-            instance = new SmartServiceFactory();
+            if(instance == null)
+                lock (dimmy)
+                {
+                    if(instance == null)
+                        instance = new SmartServiceFactory();
+                }
+                
         }
     }
 }

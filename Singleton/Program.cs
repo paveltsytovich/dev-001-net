@@ -10,6 +10,15 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            ISmartServiceFactory factory1 = SmartServiceCreator.Instance;
+            ISmartServiceFactory factory2 = SmartServiceCreator.Instance;
+
+            if(factory1 == factory2)
+                Console.WriteLine("Is one!");
+            else
+            {
+                Console.WriteLine("Ooops!");
+            }
         }
     }
 }
