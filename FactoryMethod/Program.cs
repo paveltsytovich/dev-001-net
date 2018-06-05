@@ -45,26 +45,7 @@ namespace Bridge
         }
         static void Main(string[] args)
         {
-            ICinema cinema =
-                CreateCinema(CinemaType.flat, EquipmentType.ZWave);
-            cinema.Show();
-            cinema.Stop();
-            cinema.Off();
-            Console.WriteLine("-----------------------------");
-            cinema = CreateCinema(CinemaType.flat,EquipmentType.Noolite);
-            cinema.Show();
-            cinema.Stop();
-            cinema.Off();
-            Console.WriteLine("-----------------------------");
-            cinema = CreateCinema(CinemaType.cottadge, EquipmentType.ZWave);
-            cinema.Show();
-            cinema.Stop();
-            cinema.Off();
-            Console.WriteLine("-----------------------------");
-            cinema = CreateCinema(CinemaType.cottadge, EquipmentType.Noolite);
-            cinema.Show();
-            cinema.Stop();
-            cinema.Off();
+            
             Console.ReadKey();
         }
     }
