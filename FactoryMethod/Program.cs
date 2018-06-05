@@ -45,7 +45,13 @@ namespace Bridge
         }
         static void Main(string[] args)
         {
-            
+            FlatWithNoolite flat = new FlatWithNoolite();
+            flat.Run();
+            Console.WriteLine("--------------------------------------------------------------------------");
+
+            CottageWithNoolite cottage  = new CottageWithNoolite();
+            cottage.Run();
+
             Console.ReadKey();
         }
     }
