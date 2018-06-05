@@ -26,6 +26,7 @@ namespace Bridge
             lampInRoom.On();
             wall.turnForward();
             windowBlindes.turnForward();
+            projector.On();
         }
 
         public void Stop()
