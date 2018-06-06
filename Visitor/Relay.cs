@@ -2,7 +2,7 @@
 
 namespace Visitor
 {
-    class Relay : IRelay
+    class Relay : IRelay, IAcceptable
     {
         public void On()
         {
@@ -12,6 +12,11 @@ namespace Visitor
         public void Off()
         {
             throw new NotImplementedException();
+        }
+
+        public void Accept(IVisitor visitor)
+        {
+            visitor.SetRelay(this);
         }
     }
 }
