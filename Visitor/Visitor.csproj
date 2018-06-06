@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAcceptable.cs" />
     <Compile Include="IRelay.cs" />
     <Compile Include="IVisitor.cs" />
     <Compile Include="Program.cs" />
