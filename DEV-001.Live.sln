@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{B3189E63-C317-4041-BFDF-5B0F218441C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{6DF55159-833E-4802-B4D4-77C46ACDB20D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B3189E63-C317-4041-BFDF-5B0F218441C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3189E63-C317-4041-BFDF-5B0F218441C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3189E63-C317-4041-BFDF-5B0F218441C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DF55159-833E-4802-B4D4-77C46ACDB20D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DF55159-833E-4802-B4D4-77C46ACDB20D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DF55159-833E-4802-B4D4-77C46ACDB20D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DF55159-833E-4802-B4D4-77C46ACDB20D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
