@@ -6,12 +6,12 @@ namespace Visitor
     {
         public void On()
         {
-            throw new NotImplementedException();
+           Console.WriteLine("Relay::On");
         }
 
         public void Off()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Relay::Off");
         }
 
         public void Accept(IVisitor visitor)
